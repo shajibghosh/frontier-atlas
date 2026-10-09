@@ -1,0 +1,89 @@
+﻿ref_id,key,title,url,type,problem_ids
+R1,pym,Yang–Mills and the Mass Gap — Clay Mathematics Institute,https://www.claymath.org/millennium/yang-mills-the-maths-gap/,Official mathematical problem statement,P01
+R2,pns,Navier–Stokes Equation — Clay Mathematics Institute,https://www.claymath.org/millennium/Navier-Stokes-Equation/,Official mathematical problem statement,P02
+R3,pns26,"Navier–Stokes Announcement (September 11, 2026) — Clay Mathematics Institute",https://www.claymath.org/year_type/2026/,Official status announcement,P02
+R4,ppdg,"Review of Particle Physics, 2025: Standard Model topics — Particle Data Group",https://pdg.lbl.gov/2025/reviews/standard_model_and_related.html,Authoritative scientific reference,P07; P08
+R5,pneutr,"Neutrino masses, mixing, and oscillations — Particle Data Group",https://pdg.lbl.gov/2025/reviews/rpp2025-rev-neutrino-mixing.pdf,Authoritative review,P05; P06
+R6,pcos,Astrophysics and Cosmology Reviews — Particle Data Group,https://pdg.lbl.gov/2025/reviews/astro-cosmo.html,Authoritative review collection,P07; P09; P10; P11; P12
+R7,phub,Hubble Constant and Tension — NASA Science,https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/,Government science overview,P11
+R8,pdark,Hubble Focus: Dark Universe — NASA Science,https://science.nasa.gov/mission/hubble/multimedia/e-books/hubble-focus-dark-universe/,Government science report,P09; P10; P12
+R9,pstrong,Constraints on axion-like particles from active galactic nuclei — Nature Astronomy (2025),https://www.nature.com/articles/s41550-025-02621-8,Peer-reviewed review or research,P08
+R10,pgrav,Review of neutral naturalness — Physics Reports (2026),https://doi.org/10.1016/j.physrep.2025.12.001,Peer-reviewed review or research,
+R11,pstrange,Quantum critical metals and loss of quasiparticles — Nature Physics (2024),https://www.nature.com/articles/s41567-024-02679-7,Peer-reviewed review or research,P13; P14
+R12,psuper,Superconductivity in an extreme strange metal — Nature Communications (2021),https://www.nature.com/articles/s41467-021-24670-z,Peer-reviewed review or research,P13
+R13,pglass,Roadmap on machine learning glassy dynamics — Nature Reviews Physics (2025),https://www.nature.com/articles/s42254-024-00791-4,Peer-reviewed review or research,P15
+R14,pyield,Yielding and plasticity in amorphous solids — Nature Reviews Physics (2025),https://www.nature.com/articles/s42254-025-00833-5,Peer-reviewed review or research,P16
+R15,pturb,Non-linear super-stencils for turbulence model corrections — Communications Physics (2025),https://www.nature.com/articles/s42005-025-02149-3,Peer-reviewed review or research,P17
+R16,pwea,Toward a unified parameterization of 3D turbulent transport — npj Climate and Atmospheric Science (2025),https://www.nature.com/articles/s41612-025-01117-6,Peer-reviewed review or research,P17
+R17,pcorona,A model for heating the super-hot corona — Nature Astronomy (2024),https://www.nature.com/articles/s41550-024-02244-5,Peer-reviewed review or research,P18; P19
+R18,pfusion,How fast ions mitigate turbulence and enhance confinement in tokamaks — Nature Reviews Physics (2025),https://www.nature.com/articles/s42254-025-00814-8,Peer-reviewed review or research,P19; P20
+R19,csynth,Towards global reaction feasibility and robustness prediction — Nature Communications (2025),https://www.nature.com/articles/s41467-025-59812-0,Peer-reviewed review or research,C01; C03; C04; C20
+R20,creact,A unified framework for reaction performance prediction and synthesis planning — Nature Machine Intelligence (2025),https://www.nature.com/articles/s42256-025-01098-4,Peer-reviewed review or research,C01; C02; C04
+R21,cml,Machine-made chemistry — Nature Reviews Chemistry (2025),https://www.nature.com/articles/s41570-025-00775-7,Peer-reviewed review or research,C02; C03; C09; C11
+R22,ccat,Developing machine learning for heterogeneous catalysis — Nature Reviews Chemistry (2025),https://www.nature.com/articles/s41570-025-00740-4,Peer-reviewed review or research,C05; C08; C09
+R23,cdyn,Grand challenges in stimulated dynamic and resonant catalysis — ACS Catalysis (2026),https://pubs.acs.org/doi/10.1021/acscatal.5c07014,Peer-reviewed review or research,C06; C17
+R24,cco2,Electrocatalytic CO2 reduction: molecular mechanisms to scalable systems — Energy & Fuels (2025),https://pubs.acs.org/doi/full/10.1021/acs.energyfuels.5c03120,Peer-reviewed review or research,C07
+R25,cco2s,Controlling selectivity in electrochemical CO2 reduction — Energy & Fuels (2025),https://pubs.acs.org/doi/10.1021/acs.energyfuels.5c04997,Peer-reviewed review or research,C07
+R26,cbatt,Electrolyte design for future batteries — Nature Reviews Materials (2026),https://www.nature.com/articles/s41578-026-00958-8,Peer-reviewed review or research,C10; C12
+R27,cinterface,Application-driven electrolyte design through quantification of interfacial reactions — Nature Nanotechnology (2025),https://www.nature.com/articles/s41565-025-01935-y,Peer-reviewed review or research,C10
+R28,cstorage,Advanced architectures of electrochemical interfaces — Communications Chemistry (2025),https://www.nature.com/articles/s42004-025-01633-9,Peer-reviewed review or research,C12
+R29,corigin,Introduction: chemical evolution and the origins of life — Chemical Reviews (2020),https://pubs.acs.org/doi/10.1021/acs.chemrev.0c00409,Peer-reviewed review or research,C13; C14; C15; C16; C17
+R30,chiral,Energy threshold for chiral symmetry breaking in molecular self-replication — Nature Chemistry (2019),https://www.nature.com/articles/s41557-019-0321-y,Peer-reviewed review or research,C14
+R31,caero,Atmospheric organic aerosols: characterization and environmental impacts — npj Climate and Atmospheric Science (2025),https://www.nature.com/articles/s41612-025-01199-2,Peer-reviewed review or research,C18; C19
+R32,caeroreact,Formation of secondary organic aerosols from anthropogenic precursors — npj Climate and Atmospheric Science (2022),https://www.nature.com/articles/s41612-022-00238-6,Peer-reviewed review or research,C18; C19
+R33,gexpr,Predicting gene expression from DNA sequence using deep learning — Nature Reviews Genetics (2025),https://www.nature.com/articles/s41576-025-00841-2,Peer-reviewed review or research,G01; G02; G03; G04
+R34,genh,Modelling and design of transcriptional enhancers — Nature Reviews Bioengineering (2025),https://www.nature.com/articles/s44222-025-00280-y,Peer-reviewed review or research,G02
+R35,greg,Making sense of the regulatory genome — Nature Reviews Genetics (2025),https://www.nature.com/articles/s41576-025-00894-3,Peer-reviewed review or research,G01; G03
+R36,gRNA,Predicting RNA-seq coverage from DNA sequence — Nature Genetics (2025),https://www.nature.com/articles/s41588-024-02053-6,Peer-reviewed review or research,G04
+R37,gpoly,"Pleiotropy, epistasis and genetic architecture of quantitative traits — Nature Reviews Genetics (2024)",https://www.nature.com/articles/s41576-024-00711-3,Peer-reviewed review or research,G05; G06; G16
+R38,gxe,Gene–environment interactions in human health — Nature Reviews Genetics (2024),https://www.nature.com/articles/s41576-024-00731-z,Peer-reviewed review or research,G07; G20
+R39,gprs,Principles and methods for transferring polygenic risk scores — Nature Reviews Genetics (2024),https://www.nature.com/articles/s41576-023-00637-2,Peer-reviewed review or research,G08
+R40,gprs26,Three open questions in polygenic score portability — Nature Communications (2026),https://www.nature.com/articles/s41467-026-68565-3,Peer-reviewed review or research,G08
+R41,gsingle,Benchmarking generalizable single-cell perturbation-response prediction — Nature Methods (2025),https://www.nature.com/articles/s41592-025-02980-0,Peer-reviewed review or research,G09
+R42,gcell,"Interpretation, extrapolation and perturbation of single cells — Nature Reviews Genetics (2026)",https://www.nature.com/articles/s41576-025-00920-4,Peer-reviewed review or research,G09; G10; G11; G12
+R43,gspatial,Cell-type deconvolution methods for spatial transcriptomics — Nature Reviews Genetics (2025),https://www.nature.com/articles/s41576-025-00845-y,Peer-reviewed review or research,G11; G12
+R44,gline,Next-generation lineage tracing and its applications — npj Systems Biology and Applications (2025),https://www.nature.com/articles/s41540-025-00542-w,Peer-reviewed review or research,G10
+R45,gpang,Complex genetic variation in nearly complete human genomes — Nature (2025),https://www.nature.com/articles/s41586-025-09140-6,Peer-reviewed review or research,G05; G14; G15; G18; G19
+R46,gtrans,Transcriptional and post-transcriptional regulation of transposable elements — Nature Reviews Molecular Cell Biology (2025),https://www.nature.com/articles/s41580-025-00867-8,Peer-reviewed review or research,G14
+R47,gclonal,Inflammageing and clonal haematopoiesis interplay — Nature Reviews Molecular Cell Biology (2026),https://www.nature.com/articles/s41580-025-00936-y,Peer-reviewed review or research,G13; G16
+R48,gVUS,Multiplexed assays of variant effect for clinical interpretation — Nature Reviews Genetics (2025/2026),https://www.nature.com/articles/s41576-025-00870-x,Peer-reviewed review or research,G17; G18; G19
+R49,gdiv,Methodological opportunities in genomic data analysis to advance health equity — Nature Reviews Genetics (2025),https://www.nature.com/articles/s41576-025-00839-w,Peer-reviewed review or research,
+R50,psycon,Adversarial testing of global workspace and integrated information theories — Nature (2025),https://www.nature.com/articles/s41586-025-08888-1,Peer-reviewed review or research,PS01; PS04
+R51,psyreport,Sleuthing subjectivity: covert measures of consciousness — Nature Reviews Neuroscience (2025),https://www.nature.com/articles/s41583-025-00934-1,Peer-reviewed review or research,PS02; PS04
+R52,psymeta,Comprehensive assessment of methods for measuring metacognition — Nature Communications (2025),https://www.nature.com/articles/s41467-025-56117-0,Peer-reviewed review or research,PS03; PS07; PS18
+R53,psymem,Memory engram stability and flexibility — Neuropsychopharmacology (2024),https://www.nature.com/articles/s41386-024-01979-z,Peer-reviewed review or research,PS05; PS06; PS08
+R54,psyrec,Demarcating boundary conditions of memory reconsolidation: unsuccessful replication — Scientific Reports (2022),https://www.nature.com/articles/s41598-022-06119-5,Peer-reviewed review or research,PS05
+R55,psysocial,How aggregated opinions shape beliefs — Nature Reviews Psychology (2025),https://www.nature.com/articles/s44159-024-00398-7,Peer-reviewed review or research,PS11; PS12
+R56,psycont,Distinguishing mechanisms of social contagion — npj Complexity (2025),https://www.nature.com/articles/s44260-025-00034-2,Peer-reviewed review or research,PS10; PS19
+R57,psypolar,Polarization as psychological foundation of collective engagement — Communications Psychology (2024),https://www.nature.com/articles/s44271-024-00089-2,Peer-reviewed review or research,PS11
+R58,psycross,"A manifesto for globally diverse, equitable and inclusive open science — Communications Psychology (2025)",https://www.nature.com/articles/s44271-024-00179-1,Peer-reviewed review or research,PS09; PS18
+R59,psyrep,Investigating replicability of social and behavioural sciences — Nature (2026),https://www.nature.com/articles/s41586-025-10078-y,Peer-reviewed review or research,PS09; PS17; PS20
+R60,psymental,Transforming psychiatry with computational and brain-based methods — Nature Computational Science (2025),https://www.nature.com/articles/s43588-025-00884-9,Peer-reviewed review or research,PS13; PS15; PS19
+R61,psycare,Towards personalized psychological care — Nature Reviews Psychology (2026),https://www.nature.com/articles/s44159-026-00613-7,Peer-reviewed review or research,PS14
+R62,psytrial,Personalised and optimised therapy algorithm: randomised trial — npj Digital Medicine (2025),https://www.nature.com/articles/s41746-025-01906-6,Peer-reviewed review or research,PS14
+R63,psyplacebo,"Neuroscience of placebo effects: context, learning and health — Nature Reviews Neuroscience (2015)",https://www.nature.com/articles/nrn3976,Peer-reviewed review or research,PS16
+R64,phyage,Distinguishing driver and passenger mechanisms of aging — Nature Genetics (2024),https://www.nature.com/articles/s41588-023-01627-0,Peer-reviewed review or research,PH01; PH04; PH20
+R65,physen,Advancing understanding of cellular senescence with computational multiomics — Nature Genetics (2025),https://www.nature.com/articles/s41588-025-02314-y,Peer-reviewed review or research,PH02; PH04; PH10
+R66,phyclock,Epigenetic ageing clocks: methods and computational challenges — Nature Reviews Genetics (2025),https://www.nature.com/articles/s41576-024-00807-w,Peer-reviewed review or research,PH03
+R67,phyclock2,What makes biological age epigenetic clocks tick — Nature Aging (2025),https://www.nature.com/articles/s43587-025-00833-1,Peer-reviewed review or research,PH03
+R68,phyins,Insulin resistance in type 2 diabetes mellitus — Nature Reviews Endocrinology (2025),https://www.nature.com/articles/s41574-025-01114-y,Peer-reviewed review or research,PH05; PH06; PH07
+R69,phycirc,Circadian clock communication during homeostasis and ageing — Nature Reviews Molecular Cell Biology (2025),https://www.nature.com/articles/s41580-024-00802-3,Peer-reviewed review or research,PH06; PH08; PH12; PH17; PH19; PH20
+R70,phyneuro,The neuroimmune connectome in health and disease — Nature (2025),https://www.nature.com/articles/s41586-024-08474-x,Peer-reviewed review or research,PH09
+R71,phyneuro2,Connection and communication between nervous and immune systems — Nature Reviews Immunology (2025),https://www.nature.com/articles/s41577-025-01199-6,Peer-reviewed review or research,PH08; PH09; PH10; PH12
+R72,phypain,How microglia contribute to neuropathic pain — Nature Reviews Neuroscience (2025),https://www.nature.com/articles/s41583-025-00914-5,Peer-reviewed review or research,PH11
+R73,phyhf,Single-cell transcriptomic profiling of HFpEF and HFrEF — Communications Biology (2025),https://www.nature.com/articles/s42003-025-08827-w,Peer-reviewed review or research,PH13; PH14
+R74,phygut,Microbiota–neuroepithelial signalling across the gut–brain axis — Nature Reviews Microbiology (2025),https://www.nature.com/articles/s41579-024-01136-9,Peer-reviewed review or research,PH07
+R75,phygut2,Consensus statement on establishing causality in microbiome research — Nature Reviews Gastroenterology & Hepatology (2025),https://www.nature.com/articles/s41575-025-01041-3,Peer-reviewed review or research,PH18
+R76,phygut3,Distinguishing causal and correlational gut-microbiota roles in mental health — Nature Mental Health (2025),https://www.nature.com/articles/s44220-025-00498-0,Peer-reviewed review or research,PH18
+R77,pquant,Toward experimentally testable quantum gravity — Nature (2025),https://www.nature.com/articles/d41586-025-03132-2,Science reporting on open fundamental tests,P03
+R78,pblack,Black-hole thermodynamics — Nature Reviews Physics (2026),https://www.nature.com/articles/s42254-026-00942-9,Peer-reviewed review or research,P03; P04
+R79,cNRR,A rigorous electrochemical ammonia synthesis protocol with quantitative isotope measurements — Nature (2019),https://www.nature.com/articles/s41586-019-1260-x,Peer-reviewed review or research,C08
+R80,ccryst,Deciphering the complexities of crystalline state(s) with molecular simulations — Communications Chemistry (2025),https://www.nature.com/articles/s42004-025-01667-z,Peer-reviewed review or research,C11
+R81,cplast,Standardizing Depolymerization: Strategies and Performance Metrics — Precision Chemistry (2025),https://pubs.acs.org/doi/10.1021/prechem.5c00080,Peer-reviewed review or research,C20
+R82,gpharm,The impact of pharmacogenetic testing in patients exposed to polypharmacy: a scoping review — Pharmacogenomics Journal (2021),https://www.nature.com/articles/s41397-021-00224-w,Peer-reviewed review or research,G20
+R83,psyexplo,Exploration versus exploitation decisions in the human brain: a systematic review — Neuropsychologia (2024),https://pubmed.ncbi.nlm.nih.gov/38036246/,Peer-reviewed review or research,PS07
+R84,psyrel,Neural mechanisms of relational learning and fast knowledge reassembly — Nature Neuroscience (2025),https://www.nature.com/articles/s41593-024-01852-8,Peer-reviewed review or research,PS08
+R85,phymicro,Microenvironmental determinants of endothelial cell heterogeneity — Nature Reviews Molecular Cell Biology (2025),https://www.nature.com/articles/s41580-024-00825-w,Peer-reviewed review or research,PH13
+R86,phypulm,Signaling pathways and targeted therapy for pulmonary hypertension — Signal Transduction and Targeted Therapy (2025),https://www.nature.com/articles/s41392-025-02287-8,Peer-reviewed review or research,PH15
+R87,phyvent,The evolving science of ventilation heterogeneity: from pathophysiology to personalized therapeutic approaches — Respiratory Medicine (2026),https://doi.org/10.1016/j.rmed.2026.108811,Peer-reviewed review or research,PH16
+R88,physex,Sex differences in skeletal muscle metabolism in exercise and type 2 diabetes — Nature Reviews Endocrinology (2025),https://www.nature.com/articles/s41574-024-01058-9,Peer-reviewed review or research,PH19

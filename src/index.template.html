@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="/*INLINE_CSP*/" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="FrontierAtlas: 100 evidence-grounded open research problems in physics, chemistry, genetics, psychology and physiology. Search by domain, topic, subtopic and methodology." />
+  <meta name="theme-color" content="#132841" />
+  <title>FrontierAtlas — Open Scientific Problems</title>
+  <style>/*INLINE_CSS*/</style>
+</head>
+<body>
+  <a class="skip-link" href="#explorer">Skip to the problem explorer</a>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="FrontierAtlas home">
+        <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true"><rect x="1" y="1" width="42" height="42" rx="12" fill="#154d61"/><circle cx="22" cy="22" r="12.3" fill="none" stroke="#88d7ce" stroke-width="1.5"/><path d="M10 22h24M22 10v24M13.5 13.5l17 17M30.5 13.5l-17 17" stroke="#d5f7ef" stroke-width="1.1" opacity=".75"/><circle cx="22" cy="22" r="4.2" fill="#f0b866"/></svg>
+        <span><strong>FrontierAtlas</strong><small>Open science research atlas</small></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#explorer" id="navExplore">Explore problems</a>
+        <a href="#references" id="navSources">Source library</a>
+        <a href="#about" id="navAbout">Methodology</a>
+      </nav>
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Switch dark or light theme" title="Toggle theme">◐ <span class="small-hide">Theme</span></button>
+    </header>
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-text">
+          <div class="eyebrow"><span class="pulse-dot"></span> RESEARCH ATLAS <span class="sep">/</span> EDITION 2026</div>
+          <h1 id="page-title">The questions at the <em>frontier</em> of science.</h1>
+          <p class="hero-lead">Explore unresolved scientific questions with clear bottlenecks, grounded research directions, and traceable literature. Five disciplines, one searchable reference.</p>
+          <div class="hero-actions"><a href="#explorer" class="primary-link">Explore the atlas <span aria-hidden="true">↗</span></a><a href="#about" class="quiet-link">How to read this atlas →</a></div>
+          <p class="edition">Snapshot: 8 October 2026 · Research synthesis, not a claim of original solutions</p>
+        </div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit orb1"></div><div class="orbit orb2"></div><div class="orbit orb3"></div><div class="orbit orb4"></div><div class="orbit-center">?</div><span class="sat s1"></span><span class="sat s2"></span><span class="sat s3"></span><span class="sat s4"></span><div class="art-label">OBSERVATION ↔ HYPOTHESIS</div></div>
+      </section>
+      <section class="metrics" aria-label="Atlas coverage">
+        <div class="metric"><b>100</b><span>research questions</span></div>
+        <div class="metric"><b>05</b><span>scientific domains</span></div>
+        <div class="metric"><b>25</b><span>research topics</span></div>
+        <div class="metric"><b>50</b><span>focused subtopics</span></div>
+        <div class="metric"><b>88</b><span>linked sources</span></div>
+      </section>
+      <section class="discipline-section" aria-labelledby="coverage-heading"><div class="section-eyebrow">A STRUCTURED RESEARCH LANDSCAPE</div><h2 id="coverage-heading">Explore across disciplines</h2><div class="discipline-grid" id="domainTiles"></div></section>
+      <section class="explorer" id="explorer" aria-labelledby="exploreHeading">
+        <div class="section-eyebrow">INTERACTIVE RESEARCH INDEX</div>
+        <div class="section-heading"><div><h2 id="exploreHeading">Problem explorer</h2><p>Search the entire catalog, or narrow down from a broad domain to a specific scientific subtopic.</p></div><div class="view-switch"><button type="button" class="view-btn active" id="gridView" aria-pressed="true">▦ Cards</button><button type="button" class="view-btn" id="compactView" aria-pressed="false">☷ Compact</button></div></div>
+        <div class="explorer-layout"><aside class="filters" aria-labelledby="filterHeading">
+          <div class="filter-title"><h3 id="filterHeading">Refine results</h3><button type="button" class="link-button" id="reset">Reset all</button></div>
+          <label for="query">Full-text search</label>
+          <div class="search-field"><span aria-hidden="true">⌕</span><input id="query" type="search" placeholder="e.g. turbulence, epistasis…" autocomplete="off" aria-describedby="searchHint"/><kbd>/</kbd></div>
+          <p class="hint" id="searchHint">Search titles, questions, limitations, proposed methods, and source titles.</p>
+          <label for="domain">Scientific domain</label><select id="domain"><option value="">All domains</option></select>
+          <label for="topic">Research topic</label><select id="topic"><option value="">All topics</option></select>
+          <label for="subtopic">Focused subtopic</label><select id="subtopic"><option value="">All subtopics</option></select>
+          <label for="status">Problem classification</label><select id="status"><option value="">All classifications</option></select>
+          <label for="route">Research approach</label><select id="route"><option value="">All approaches</option></select>
+          <div class="filter-note"><span aria-hidden="true">ⓘ</span><span>“Open” covers formal conjectures and unresolved scientific mechanisms. These classifications are not proof of novelty.</span></div>
+          <div class="saved-filter"><label class="check"><input type="checkbox" id="savedOnly" /> Show saved problems only</label><div class="micro" id="savedCount">0 saved</div></div>
+        </aside>
+        <div class="results-side">
+          <div class="results-bar"><div><span class="result-count" id="resultCount" role="status" aria-live="polite">100 problems</span><div id="activeFilters" class="active-filters"></div></div><div class="results-controls"><label for="sort" class="sr-only">Sort problems</label><select id="sort"><option value="default">Catalog order</option><option value="title">Title A–Z</option><option value="domain">Domain A–Z</option></select><button type="button" class="outline-button" id="exportButton" aria-haspopup="true" aria-expanded="false">Export ▾</button><div id="exportMenu" class="export-menu" hidden><button type="button" data-export="json">JSON · current results</button><button type="button" data-export="csv">CSV · current results</button><button type="button" data-export="md">Markdown · current results</button></div></div></div>
+          <div class="problem-grid" id="results" aria-label="Research problem cards"></div>
+          <div class="empty-state" id="noResults" hidden><div class="empty-icon">⌕</div><h3>No matching problems</h3><p>Try a broader term or remove one of the filters.</p><button class="outline-button" type="button" id="emptyReset">Clear filters</button></div>
+          <div class="load-wrap"><button type="button" class="more-button" id="showMore">Show more problems ↓</button></div>
+        </div></div>
+      </section>
+      <section class="references-section" id="references"><div class="section-eyebrow">TRACEABLE LITERATURE</div><div class="section-heading"><div><h2>Source library</h2><p>88 scholarly and authoritative references. An article motivates a question; it does not certify that the entire problem is open or validate an investigative proposal.</p></div></div><div class="source-toolbar"><label for="sourceSearch">Find a reference</label><input id="sourceSearch" type="search" placeholder="Search title, publisher, source type…" /><span id="sourceCount" role="status"></span></div><div class="reference-list" id="sourceList"></div><button class="more-button" type="button" id="showSources">Show all references ↓</button></section>
+      <section class="method-section" id="about"><div class="section-eyebrow">RESEARCH INTEGRITY</div><h2>Methodology and limitations</h2><div class="method-grid"><article><div class="method-num">01</div><h3>Define the unknown</h3><p>Each entry gives a narrowly stated question, a scientific rationale, and a distinct technical barrier. Formal conjectures and empirical questions are labelled separately.</p></article><article><div class="method-num">02</div><h3>Identify a testable path</h3><p>A proposed mathematical, experimental, or computational investigation includes a first milestone. Suggestions are not presented as demonstrated new results.</p></article><article><div class="method-num">03</div><h3>Trace the evidence</h3><p>Every problem links to relevant sources. Claims, citation fitness, research status, and links require continued independent expert review.</p></article></div><div class="caveat"><strong>Research status note.</strong> The snapshot is dated 8 October 2026. In September 2026, Clay described the forced Navier–Stokes breakdown claim as apparently settling a version of its prize problem while formal evaluation remained outstanding. This atlas separately notes the unforced case. No new mathematical proof or scientific resolution is asserted here.</div></section>
+    </main>
+    <footer><div><strong>FrontierAtlas</strong><p>An open atlas of unsolved scientific questions.</p></div><div><p>Content: CC BY 4.0 · Code: MIT</p><p>AI assistance: OpenAI GPT-6 (ChatGPT); see repository acknowledgments. Researchers must verify claims and sources independently.</p></div><a href="#top">Back to top ↑</a></footer>
+  </div>
+  <script id="atlas-data" type="application/json">/*INLINE_DATA*/</script>
+  <script>/*INLINE_JS*/</script>
+</body>
+</html>

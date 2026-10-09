@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use FrontierAtlas, please cite the project and original references relevant to your discussion.
+title: 'FrontierAtlas: An Evidence-Grounded Atlas of Open Scientific Problems'
+type: dataset
+authors:
+  - name: FrontierAtlas Contributors
+version: 1.0.0
+date-released: '2026-10-08'
+abstract: A curated data and web atlas of 100 open scientific problems in five domains, including research context, bottlenecks, proposed investigations, and linked literature.
+keywords:
+  - open problems
+  - physics
+  - chemistry
+  - genetics
+  - psychology
+  - physiology
+  - research atlas
+license: CC-BY-4.0
